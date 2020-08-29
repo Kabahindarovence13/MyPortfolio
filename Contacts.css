@@ -1,0 +1,56 @@
+.top_navbar {
+    background-color:skyblue;
+    overflow: hidden;
+    position:relative; 
+    width:100%;  
+}
+.top_navbar a{
+float:right;
+color:red;
+text-align:center;
+padding:14px 16px;
+text-decoration:none;
+font-size:17px;
+}
+@media screen and (max-width: 600px) {
+    .top_navbar a {
+      float: none;
+      width: 100%;
+    }
+  }
+.top_navbar a:hover{
+    background-color:black;
+    color:white;
+}
+ul{
+ 
+   font-size: 30px;
+ color:black;
+   padding-left: 60%;
+   position: relative;
+   padding-top: 6px;
+
+
+
+}
+
+body{
+   background-color:white;
+
+}
+.right1{
+position:relative;
+font-size:30px;
+color:black;
+
+    padding-left: 60%;
+    padding-top:6px;
+}
+@media screen and (min-width: 480px) {
+    body {
+      background-color: none;
+    }
+  }
+
+
+

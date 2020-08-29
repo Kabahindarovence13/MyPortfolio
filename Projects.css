@@ -1,0 +1,29 @@
+.top_navbar {
+    background-color:skyblue;
+    overflow: hidden;
+    position:relative; 
+    width:100%;  
+}
+@media screen and (max-width: 600px) {
+    .top_navbar a {
+      float: none;
+      width: 100%;
+    }
+  }
+.top_navbar a{
+float:right;
+color:red;
+text-align:center;
+padding:14px 16px;
+text-decoration:none;
+font-size:17px;
+}
+.top_navbar a:hover{
+    background-color:black;
+    color:white;
+}
+
+hr{
+    padding-left: 40%;
+    padding-right: 40%;
+}
